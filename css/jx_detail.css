@@ -1,0 +1,43 @@
+#group .item{
+	padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+/*点赞的人*/
+.jx-detail .group .detail{margin-top:20px;}
+.jx-detail .group .zan{padding:10px;border-bottom: 1px solid #eee;overflow: hidden;}
+.jx-detail .group .zan img{display:block;width:30px;height:30px;float: left;margin-right:10px;margin-top:5px;}
+.jx-detail .group .zan .more{font-size: 30px;color: #999;margin-right:10px;float: left;}
+.jx-detail .group .zan p{float: left;padding-top:10px;}
+/*评论*/
+.jx-detail .group .comment{padding:10px;border-bottom: 1px solid #eee;overflow: hidden;}
+.jx-detail .group .comment .group_comment .item_comment{padding:10px 0px;overflow: hidden;border-bottom:1px solid #eee;}
+.jx-detail .group .comment .group_comment .item_comment:last-child{border:none;}
+.jx-detail .group .comment .group_comment .item_comment .name{color:#336eb6;}
+@media screen and (min-width: 320px) {
+	.jx-detail .group .comment .group_comment .item_comment .name{padding:5px 0px;}
+}
+@media screen and (min-width: 360px) {
+	.jx-detail .group .comment .group_comment .item_comment .name{padding:10px 0px;}
+}
+@media screen and (min-width: 375px) {
+	.jx-detail .group .comment .group_comment .item_comment .name{padding:12px 0px;}
+}
+@media screen and (min-width: 400px) {
+	.jx-detail .group .comment .group_comment .item_comment .name{padding:14px 0px;}
+}
+.jx-detail .group .comment .group_comment .item_comment .pinglun{color:#333;padding:0px;}+
+.jx-detail .group .comment .group_comment .item_comment .time{color:#999; padding:5px 0px}
+.jx-detail .group .comment .group_comment .item_comment .reply{background: #f4f5f7;padding:10px;}
+.jx-detail .group .comment .group_comment .item_comment .reply div span{color:#336eb6}
+.jx-detail .group p{color:#999;margin:0px;}
+.jx-detail .group .whole{padding:15px;text-align: center;color:#666;}
+.jx-detail .group .commentary{padding:10px;background: #f4f5f7;}
+.jx-detail .group .commentary input{
+	width: calc(100% - 40px);
+	padding:8px 10px;
+	border-radius: 20px;
+	border:none;
+    -webkit-box-shadow:inset 0 0px 0px rgba(0,0,0,.0);
+    box-shadow:inset 0 0px 0px rgba(0,0,0,.0);
+    outline:none;}
+.jx-detail .group .commentary i{font-size: 14px;width:30px;height:30px;float: right;padding-top:10px;}

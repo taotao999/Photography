@@ -1,0 +1,33 @@
+/*标题*/
+.release{background:#f4f5f6;}
+.release .tit{padding:20px 10px;background:#fff;}
+.release .tit input{
+	width:100%;
+	border:none;
+    -webkit-box-shadow:inset 0 0px 0px rgba(0,0,0,.0);
+    box-shadow:inset 0 0px 0px rgba(0,0,0,.0);
+    outline:none;
+    font-size: 22px;
+    padding-bottom:20px;
+    border-bottom:1px solid #eee;
+}
+/*照片故事拍摄心得*/
+.release .textarea{background:#fff;}
+.release .textarea textarea{
+	padding:0px 10px;
+	width:100%;
+	background:transparent;
+	border-style:none;
+	overflow:hidden;
+	resize:none;
+	margin-top:10px;
+	outline:none;
+}
+/*添加图片*/
+.release .add-photo{overflow:hidden;background:#fff;padding:10px 0px;}
+/*标签*/
+.release .tag{background:#fff;margin-top:10px;padding:15px 10px;}
+.release .tag .add-tag{border-bottom:1px #ddd dashed;padding-bottom:15px;}
+.release .tag .add-tag div{color:#fabe00;border:1px solid #fabe00;padding:7px 10px;border-radius: 20px;display: inline-block;}
+
+.release .recommend{background:#fff;padding:0px 10px 15px;}

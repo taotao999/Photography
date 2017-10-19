@@ -1,0 +1,27 @@
+/*分类*/
+.index{background: #f4f5f6;}
+.index .classify{padding:20px 0px;background: #fff;border-bottom:1px solid #e5e5e4;}
+.index .classify .row{margin:0px;}
+.index .classify .row img{margin:auto;}
+.index .classify .row p{margin:10px 0px 0px;font-size: 12px;font-weight: 600;}
+.index .classify .row div{position: relative;padding: 0px 15px;}
+.index .classify .row div a{position: absolute;top:0px;left:0px;width:100%;height:100%;}
+/*公共标题样式*/
+#title{position:relative;padding:10px;border-bottom:1px solid #e5e5e4;height: 50px;background: #fff;}
+#title .span1{width:5px;height:20px;border-radius: 3px;background: #fabe00;display: inline-block;position: absolute;top:14px;left:10px;}
+#title .span2{position: absolute;top:14px;left:20px;font-weight: 600;}
+/*热门活动*/
+.index .hot .gundong{padding:20px 0px 15px;background: #fff;}
+.index .hot .gundong .swiper-slide{position: relative;}
+.index .hot .gundong .swiper-slide a{position: absolute;top:0px;left:0px;width:100%;height:100%;background: rgba(0,0,0,.4);color:#fff;text-align: center;font-weight: 600;text-decoration: none;}
+@media screen and (min-width: 320px) {
+	.index .hot .gundong .swiper-slide a{padding-top:28px;}
+}
+@media screen and (min-width: 360px) {
+	.index .hot .gundong .swiper-slide a{padding-top:32px;}
+}
+@media screen and (min-width: 400px) {
+	.index .hot .gundong .swiper-slide a{padding-top:40px;}
+}
+/*精选*/
+.index .selected{margin-top:10px;}

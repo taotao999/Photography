@@ -1,0 +1,14 @@
+.zan .item{overflow:hidden;padding:10px 0px;border-bottom:1px solid #eee;}
+.zan .item .col-xs-3 i{color:#f00;}
+@media screen and (min-width: 320px) {
+	.zan .item .col-xs-7,.zan .item .col-xs-3{padding-top:7px;}
+}
+@media screen and (min-width: 360px) {
+	.zan .item .col-xs-7,.zan .item .col-xs-3{padding-top:10px;}
+}
+@media screen and (min-width: 375px) {
+	.zan .item .col-xs-7,.zan .item .col-xs-3{padding-top:12px;}
+}
+@media screen and (min-width: 400px) {
+	.zan .item .col-xs-7,.zan .item .col-xs-3{padding-top:15px;}
+}

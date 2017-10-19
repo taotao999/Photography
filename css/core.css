@@ -1,0 +1,29 @@
+.core .core-img{
+	overflow: hidden;
+	background: #313131;
+	padding:30px 0px 20px; 
+}
+.core .core-img .col-xs-offset-5{padding:0px;}
+.core .core-img .name{color:#fff;padding-top:10px;}
+.core .core-img .zan{color:#c2c2c2;padding-top:5px;}
+.core .core-img .zan span{padding:0px 3px;}
+.core .core-img .ziliao{margin-top:10px;}
+.core .core-img .ziliao a{
+	width:113px;
+	border:1px solid #fff;
+	padding:7px 10px;
+	color:#fff;
+	text-decoration: none;
+	margin:auto;
+	display: block;
+	text-align: center;
+	border-radius: 20px;
+}
+.core .tab{overflow:hidden;border-bottom:1px solid #eee;}
+.core .tab div{padding:10px;position: relative;}
+.core .tab div span{position: absolute;top:5px;width:20px;height:20px;border-radius: 50%;background: #f00;color:#fff;}
+.core .tab .active{border-bottom:2px solid #fabe00;}
+
+.core .notice .notice_item{overflow:hidden;padding:15px 0px;border-bottom:1px solid #eee;}
+.core .notice .notice_item .col-xs-7 div span{color:#336eb6}
+.core .notice .notice_item .col-xs-7 .time{color:#999;padding:4px 0px 8px;}

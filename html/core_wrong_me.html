@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<!--公共样式css-->
+	<link rel="stylesheet" href="../common/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../common/css/swiper.css" />
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<!--index私有css-->
+	<link rel="stylesheet" href="../css/core.css" />
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<div class="row">
+			<div class="col-xs-3"><a href="javascript:history.go(-1)"><i class="iconfont">&#xe602;</i></a></div>
+			<div class="col-xs-6 text-center"><span class="tit">个人中心</span></div>
+			<div class="col-xs-3 text-right"><i class="iconfont">&#xe600;</i></div>
+		</div>
+	</div>
+	<!--content-->
+	<div class="content core">
+		<!--头像用户名-->
+		<div class="core-img">
+			<div class="col-xs-2 col-xs-offset-5"><img class="img-responsive img-circle" src="../image/index/user1.jpg" alt="" /></div>
+			<div class="col-xs-12 text-center name"><span>穿越云天</span></div>
+			<div class="col-xs-12 text-center zan"><span>点赞</span>|<span>20</span></div>
+		</div>
+		<!--tab-->
+		<div class="tab">
+			<div class="col-xs-6 text-center active">照片</div>
+			<div class="col-xs-6 text-center">喜欢</div>
+		</div>
+		<!--公共模块-->
+		<div class="block-group">
+			<div id="core-group" class="core-group">
+				<div class="core-item">
+					<img class="img-responsive" src="../image/core/core1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+				<div class="core-item">
+					<img class="img-responsive" src="../image/activity/activity1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+				<div class="core-item">
+					<img class="img-responsive" src="../image/activity/activity1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+				<div class="core-item">
+					<img class="img-responsive" src="../image/core/core1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+			</div>
+			<div id="core-group" class="core-group" style="display:none;">
+				<div class="core-item">
+					<img class="img-responsive" src="../image/activity/activity1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+				<div class="core-item">
+					<img class="img-responsive" src="../image/activity/activity1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+				<div class="core-item">
+					<img class="img-responsive" src="../image/core/core1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+				<div class="core-item">
+					<img class="img-responsive" src="../image/core/core1.jpg" alt="" />
+					<a href="javascript:;"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<!--footer-->
+	<div class="footer">
+		<div class="active">
+			<i class="iconfont">&#xe64e;</i>
+			<p>首页</p>
+			<a href="javascript:;"></a>
+		</div>
+		<div>
+			<i class="iconfont">&#xe609;</i>
+			<p>发现</p>
+			<a href="javascript:;"></a>
+		</div>
+		<div class="add">
+			<i class="iconfont">&#xe61f;</i>
+			<a href="javascript:;"></a>
+		</div>
+		<div>
+			<i class="iconfont">&#xe60e;</i>
+			<p>活动</p>
+			<a href="javascript:;"></a>
+		</div>
+		<div>
+			<i class="iconfont">&#xe63d;</i>
+			<p>我的</p>
+			<a href="javascript:;"></a>
+		</div>
+	</div>
+</body>
+<!--公共js-->
+<script src="../common/js/jquery-1.11.3.min.js"></script>
+<script src="../common/js/swiper.min.js"></script>
+<script src="../common/js/bootstrap.min.js"></script>
+<script>
+	//tab切换
+	$(".tab div").on("click",function(){
+		var index = $(this).index();
+		$(this).addClass("active").siblings().removeClass("active");
+		$(".block-group").find(".core-group").eq(index).show().siblings().hide();
+	})
+</script>
+</html>
